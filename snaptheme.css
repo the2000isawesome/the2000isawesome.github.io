@@ -47,3 +47,6 @@ body {
 .is-published {
 	display: none;
 }
+#footer {
+	background-color: #9f824a;
+}
