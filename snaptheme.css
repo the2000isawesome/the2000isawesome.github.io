@@ -49,3 +49,6 @@ body {
 .bar {
 	padding-left: 30px;
 }
+.paginator {
+	margin-bottom: 0;
+}
