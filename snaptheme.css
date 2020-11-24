@@ -43,12 +43,12 @@ body {
 .is-published {
 	display: none;
 }
-#footer {
-	background-color: #9f824a;
-}
 .bar {
 	padding-left: 30px;
 }
 .paginator {
 	margin: 0;
+}
+#footer {
+	background-color: #9f824a;
 }
