@@ -21,9 +21,9 @@ body {
 	border: 1px solid #888;
 }
 .container {
-	background-color: white;
 	background-image: url("https://the2000isawesome.github.io/snaptheme/fuzz.png");
 	background-repeat: repeat;
+	background-color: white;
 	padding-right: 10px;
 	padding-left: 10px;
 	margin-bottom: 50px;
