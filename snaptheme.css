@@ -37,18 +37,18 @@ body {
 	border-top: 2px solid white;
 	border-bottom: 1px solid #888;
 }
-.is-public {
-	display: none;
-}
-.is-published {
-	display: none;
-}
 .bar {
 	padding-left: 30px;
 }
 .paginator {
 	margin: 0;
 	margin-top: 16px;
+}
+.is-public {
+	display: none;
+}
+.is-published {
+	display: none;
 }
 #footer {
 	background-color: #9f824a;
