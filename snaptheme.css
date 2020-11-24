@@ -16,7 +16,7 @@ body {
 	color: black;
 	margin-top: 48px;
 }
-.container, .slideshow, .thumbnail {
+.container {
 	border: 1px solid #888;
 }
 .container {
