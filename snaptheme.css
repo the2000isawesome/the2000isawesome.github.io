@@ -37,9 +37,6 @@ body {
 	border-top: 2px solid white;
 	border-bottom: 1px solid #888;
 }
-.bar {
-	padding-left: 15px;
-}
 .is-public {
 	display: none;
 }
@@ -48,4 +45,7 @@ body {
 }
 #footer {
 	background-color: #9f824a;
+}
+.bar {
+	padding-left: 15px;
 }
