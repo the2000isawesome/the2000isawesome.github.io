@@ -27,7 +27,7 @@ body {
 	margin-bottom: 50px;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
-	box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.35);
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.35);
 }
 .is-public {
 	display: none;
