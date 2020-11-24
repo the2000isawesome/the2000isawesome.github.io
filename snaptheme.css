@@ -48,6 +48,7 @@ body {
 }
 .paginator {
 	margin: 0;
+	margin-top: 16px;
 }
 #footer {
 	background-color: #9f824a;
