@@ -38,7 +38,7 @@ body {
 	border-bottom: 1px solid #888;
 }
 .bar {
-	margin-left: 5px;
+	padding-left: 15px;
 }
 .is-public {
 	display: none;
