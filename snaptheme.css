@@ -5,12 +5,11 @@ body {
 	background-color: #fdfdf9;
 }
 #top-bar {
-	background: rgb(23,179,255);
-	background: linear-gradient(180deg, rgba(23,179,255,1) 0%, rgba(0,127,189,1) 100%);
 	position: fixed;
 	z-index: 1000;
-	background-color: #2d3142;
+	background-color: #009ae6;
 	width: 100vw;
+	border-bottom: 1px solid #0072AA;
 }
 #wrapper {
 	background-color: #fdfdf9;
