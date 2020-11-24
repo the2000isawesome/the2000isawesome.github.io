@@ -1,3 +1,6 @@
+.paginator {
+	margin-bottom: 0;
+}
 html {
 	background-color: #fdfdf9;
 }
@@ -48,7 +51,4 @@ body {
 }
 .bar {
 	padding-left: 30px;
-}
-.paginator {
-	margin-bottom: 0;
 }
