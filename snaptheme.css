@@ -53,3 +53,8 @@ body {
 .is-published {
 	display: none;
 }
+.user_results {
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
