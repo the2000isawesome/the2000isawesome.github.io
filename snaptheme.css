@@ -37,6 +37,10 @@ body {
 	border-top: 2px solid white;
 	border-bottom: 1px solid #888;
 }
+.paginator {
+	margin-top: 10px;
+	margin-left: 10px;
+}
 .is-public {
 	display: none;
 }
