@@ -50,5 +50,6 @@ body {
 	padding-left: 30px;
 }
 .paginator {
-	padding-left: 30px; 	
+	display: block;
+	margin: 0;
 }
