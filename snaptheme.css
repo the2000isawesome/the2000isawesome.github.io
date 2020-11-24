@@ -44,12 +44,12 @@ body {
 	margin: 0;
 	margin-top: 16px;
 }
+#footer {
+	background-color: #9f824a;
+}
 .is-public {
 	display: none;
 }
 .is-published {
 	display: none;
-}
-#footer {
-	background-color: #9f824a;
 }
