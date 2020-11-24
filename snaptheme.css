@@ -1,8 +1,8 @@
 html {
-	background-color: #ffc;
+	background-color: #fdfdf9;
 }
 body {
-	background-color: #ffc;
+	background-color: #fdfdf9;
 }
 #top-bar {
 	background: rgb(23,179,255);
@@ -13,7 +13,7 @@ body {
 	width: 100vw;
 }
 #wrapper {
-	background-color: #ffc;
+	background-color: #fdfdf9;
 	color: black;
 	margin-top: 48px;
 }
