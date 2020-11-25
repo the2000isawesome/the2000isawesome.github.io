@@ -62,10 +62,7 @@ body {
 .my_projects.list .is-public, .my_projects.list .is-published, .my_collections.list .is-public, .my_collections.list .is-published {
 	display: inline;
 }
-.embed {
-	z-index: 100; !important;
-}
-.embed:not([position='fixed']) {
+.embed[position="relative"] {
 	z-index: 98 !important;	
 }
 .pure-menu-children {
