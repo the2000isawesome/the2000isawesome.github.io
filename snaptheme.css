@@ -55,3 +55,7 @@ body {
 .embed {
 	z-index: 98 !important;	
 }
+.project.big .viewer {
+	z-index: 100;
+	position: fixed;
+}
