@@ -62,7 +62,7 @@ body {
 .my_projects.list .is-public, .my_projects.list .is-published, .my_collections.list .is-public, .my_collections.list .is-published {
 	display: inline;
 }
-.embed [position="relative"] {
+.embed:not([style*="position: fixed;"]) {
 	z-index: 98 !important;	
 }
 .pure-menu-children {
