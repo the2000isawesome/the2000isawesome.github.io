@@ -62,13 +62,12 @@ body {
 .my_projects.list .is-public, .my_projects.list .is-published, .my_collections.list .is-public, .my_collections.list .is-published {
 	display: inline;
 }
-/*.embed {
+.embed {
+	z-index: 100; !important;
+}
+.embed:not([position: fixed]) {
 	z-index: 98 !important;	
 }
-.project.big .viewer {
-	z-index: 100;
-	position: fixed;
-}*/
 .pure-menu-children {
 	background-color: #009ae6 !important;
 	border: 1px solid #0072AA !important;
