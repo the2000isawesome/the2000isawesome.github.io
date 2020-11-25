@@ -86,3 +86,6 @@ body {
 	margin-top: 10px;
 	margin-left: -20px !important;
 }
+.buttons {
+	justify-content: space-around;
+}
