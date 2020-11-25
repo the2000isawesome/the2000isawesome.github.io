@@ -16,7 +16,7 @@ body {
 	color: black;
 	margin-top: 48px;
 }
-.container, .project.big, .collection:not(small) {
+.container, .project.big, .collection:not(.small) {
 	background-color: white;
 	border: 1px solid #888;
 	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.35);
@@ -26,7 +26,7 @@ body {
 	margin-right: 10px;
 	margin-left: 10px;
 }
-.collection:not(small) .contents, .viewer {
+.collection:not(.small) .contents, .viewer {
 	margin-left: 10px;
 }
 .viewer {
