@@ -25,11 +25,13 @@ body {
 	border-top-right-radius: 15px;
 }
 .project .container {
-	width: 80%;
+	margin-right: 5px;
+	margin-left: 5px;
 }
 .viewer {
 	margin-right: 5px;
 	margin-left: 5px;
+	margin-bottom: 10px;
 }
 .details {
 	border-radius: 15px;
