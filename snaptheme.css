@@ -56,11 +56,11 @@ body {
 #footer {
 	background-color: #9f824a;
 }
-.is-public {
+.is-public, .is-published {
 	display: none;
 }
-.is-published {
-	display: none;
+.my_projects.list .is-public, .my_projects.list .is-published {
+	display: inline;
 }
 /*.embed {
 	z-index: 98 !important;	
