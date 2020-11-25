@@ -84,5 +84,5 @@ body {
 }
 .my_collections.search, .my_projects.search {
 	margin-top: 10px;
-	margin-left: -20px;
+	margin-left: -20px !important;
 }
