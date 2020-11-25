@@ -21,7 +21,7 @@ body {
 	border: 1px solid #888;
 	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.35);
 }
-.container, .viewer {
+.container, .project {
 	margin-bottom: 50px;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
