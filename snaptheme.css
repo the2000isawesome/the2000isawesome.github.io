@@ -53,5 +53,5 @@ body {
 	display: none;
 }
 .embed {
-	z-index: 98;	
+	z-index: 98 !important;	
 }
