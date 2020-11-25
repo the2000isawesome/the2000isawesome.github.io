@@ -82,3 +82,7 @@ body {
 .user_results.list {
 	margin: 15px;
 }
+.my_collections.search, .my_projects.search {
+	margin-top: 10px;
+	margin-left: -20px;
+}
