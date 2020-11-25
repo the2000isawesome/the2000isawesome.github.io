@@ -97,3 +97,9 @@ body {
 .collection .title h1[contenteditable]:hover {
 	border: 2px dashed #848484;
 }
+.pure-menu-active > .pure-menu-link, .pure-menu-link:hover, .pure-menu-link:focus {
+	background-color: #4cbcf2;
+}
+#top-bar .pure-menu-link:focus, #top-bar .pure-menu-link:hover {
+	color: #fff;
+}
