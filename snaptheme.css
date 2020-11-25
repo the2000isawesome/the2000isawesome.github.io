@@ -16,7 +16,7 @@ body {
 	color: black;
 	margin-top: 48px;
 }
-.container, .project {
+.container, .project.big {
 	background-color: white;
 	border: 1px solid #888;
 	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.35);
@@ -24,7 +24,7 @@ body {
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 }
-.project .container {
+.project.big .container {
 	margin-right: 10px;
 	margin-left: 10px;
 }
