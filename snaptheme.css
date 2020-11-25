@@ -20,11 +20,16 @@ body {
 	background-color: white;
 	border: 1px solid #888;
 	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.35);
-}
-.container, .project {
 	margin-bottom: 50px;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
+}
+.project .container {
+	width: 80%;
+}
+.viewer {
+	margin-right: 5px;
+	margin-left: 5px;
 }
 .details {
 	border-radius: 15px;
