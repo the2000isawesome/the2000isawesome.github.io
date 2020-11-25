@@ -64,3 +64,9 @@ body {
 	border: 1px solid #0072AA !important;
 	border-top: none !important;
 }
+.pure-button {
+	color: #fff;
+	background-color: #ff7420;
+	border-radius: 5px;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.35);
+}
