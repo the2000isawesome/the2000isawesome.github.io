@@ -89,3 +89,11 @@ body {
 .buttons {
 	justify-content: space-around;
 }
+.collection .title h1[contenteditable] {
+	border: 2px dashed #b9b9b9;
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.collection .title h1[contenteditable]:hover {
+	border: 2px dashed #848484;
+}
