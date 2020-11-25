@@ -65,7 +65,7 @@ body {
 .embed {
 	z-index: 100; !important;
 }
-.embed:not([position=fixed]) {
+.embed:not([position='fixed']) {
 	z-index: 98 !important;	
 }
 .pure-menu-children {
