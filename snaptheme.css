@@ -6,7 +6,7 @@ body {
 }
 #top-bar {
 	position: fixed;
-	z-index: 101;
+	z-index: 99;
 	background-color: #009ae6;
 	width: 100vw;
 	border-bottom: 1px solid #0072AA;
@@ -51,7 +51,4 @@ body {
 }
 .is-published {
 	display: none;
-}
-.project.big {
-	z-index: 102;
 }
