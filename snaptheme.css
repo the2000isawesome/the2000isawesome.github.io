@@ -59,7 +59,7 @@ body {
 .is-public, .is-published {
 	display: none;
 }
-.my_projects.list .is-public, .my_projects.list .is-published {
+.my_projects.list .is-public, .my_projects.list .is-published, .my_collections.list .is-public, .my_collections.list .is-published {
 	display: inline;
 }
 /*.embed {
