@@ -59,3 +59,8 @@ body {
 	z-index: 100;
 	position: fixed;
 }*/
+.pure-menu-children {
+	background-color: #009ae6;
+	border: 1px solid #0072AA;
+	border-top: none;
+}
