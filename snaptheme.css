@@ -79,3 +79,6 @@ body {
 .notes, .description {
 	border: 2px dashed #d5d5d5;
 }
+.user_results.list {
+	margin: 15px;
+}
