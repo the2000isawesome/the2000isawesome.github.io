@@ -52,10 +52,10 @@ body {
 .is-published {
 	display: none;
 }
-.embed {
+/*.embed {
 	z-index: 98 !important;	
 }
 .project.big .viewer {
 	z-index: 100;
 	position: fixed;
-}
+}*/
