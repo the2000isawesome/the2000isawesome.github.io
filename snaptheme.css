@@ -70,3 +70,6 @@ body {
 	border-radius: 5px;
 	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.35);
 }
+.notes, .description {
+	border: 2px dashed #d5d5d5;
+}
