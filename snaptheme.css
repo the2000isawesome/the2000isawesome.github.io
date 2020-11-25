@@ -26,9 +26,11 @@ body {
 	margin-right: 10px;
 	margin-left: 10px;
 }
+.collection .contents, .viewer {
+	margin-left: 10px;
+}
 .viewer {
 	margin-right: 10px;
-	margin-left: 10px;
 	margin-bottom: 10px;
 }
 .details {
