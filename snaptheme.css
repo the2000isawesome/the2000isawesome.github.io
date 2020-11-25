@@ -16,15 +16,13 @@ body {
 	color: black;
 	margin-top: 48px;
 }
-.container, .project.big {
+.container, .project.big, .collection {
 	background-color: white;
 	border: 1px solid #888;
 	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.35);
 	margin-bottom: 50px;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
-}
-.project.big .container {
 	margin-right: 10px;
 	margin-left: 10px;
 }
