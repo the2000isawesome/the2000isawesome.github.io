@@ -103,3 +103,6 @@ body {
 #top-bar .pure-menu-link:focus, #top-bar .pure-menu-link:hover {
 	color: #fff;
 }
+.collection img.thumbnail .project img.thumbnail {
+	border: 1px solid #888;
+}
