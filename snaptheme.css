@@ -104,5 +104,5 @@ body {
 	color: #fff;
 }
 .collection img.thumbnail .project img.thumbnail {
-	border: 1px solid #888;
+	border: 1px solid #888 !important;
 }
