@@ -86,6 +86,12 @@ td, th{
 .thumb img{
 	border: 1px solid #666666;
 }
+.thumb a h6 {
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
 .sidecontainer{
 	background-image: url(https://the2000isawesome.github.io/scratch14/img/bg_sidecontainer.png);
 	background-repeat: no-repeat;
