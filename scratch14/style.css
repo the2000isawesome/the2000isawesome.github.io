@@ -86,7 +86,7 @@ td, th{
 .thumb img{
 	border: 1px solid #666666;
 }
-.thumb a h6 {
+.thumb a h6, .sidelist a {
 	display: block;
 	overflow: hidden;
 	white-space: nowrap;
@@ -122,6 +122,10 @@ td, th{
 
 .sidelist a:hover{
 	color: #FF8C00;
+}
+
+.sidelist a{
+	margin-top: 6px;
 }
 
 .sidelist img{
