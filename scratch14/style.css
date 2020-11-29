@@ -330,3 +330,26 @@ h6{
 	margin: 0 10px;
 	padding: 0;
 }
+
+/*-------------------- page specific things & stuff---------------------*/ 
+#download {
+	background-image: url(https://doubledenial.github.io/scratch14/img/bg_download.png);
+	background-repeat: no-repeat;
+	font-size: 12px;
+	height: 90px;
+	line-height: 1.2em;
+	margin-bottom: 10px;
+	padding: 10px;
+	text-align: right;
+}
+#download h2 {
+	font-size: 14px;
+	color: #FF8C00;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+#download img {
+	float: left;
+	margin-right: 5px;
+}
