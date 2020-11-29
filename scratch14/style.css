@@ -92,6 +92,10 @@ td, th{
 	white-space: nowrap;
 	text-overflow: ellipsis;
 }
+.thumb p {
+	margin: 5px;
+	display: inline-block;
+}
 .sidecontainer{
 	background-image: url(https://the2000isawesome.github.io/scratch14/img/bg_sidecontainer.png);
 	background-repeat: no-repeat;
