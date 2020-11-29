@@ -221,6 +221,17 @@ td, th{
 	width: 230px;
 }
 
+#notificationcontainer{
+	width:770px;
+	text-align: center;
+	background-image: url(/web/20091123070901im_/http://scratch.mit.edu/img/bg_footer.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	margin-bottom: 0px;
+	padding: 15px 5px 5px 5px;
+	position: relative;
+}
+
 /*-------------------- nav---------------------*/ 
 #nav {
 	background-color: #3060C1;
