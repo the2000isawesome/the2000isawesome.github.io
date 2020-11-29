@@ -38,6 +38,7 @@ td, th{
 #container {
 	background-color: #FFFFFF;
 	margin: 0px auto;
+	margin-top: 65px;
 	width: 780px;
 }
 #main {
