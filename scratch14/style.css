@@ -367,3 +367,14 @@ h6{
 	margin-top: 10px;
 	width: 540px;
 }
+#user h3 {
+	line-height: 1em;
+	padding-bottom: 10px;
+}
+#user img {
+	border: 1px solid #666666;
+	float: right;
+	margin: 0 0 0 5px;
+	width: 90px;
+	height: 90px;
+}
