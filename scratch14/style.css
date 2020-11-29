@@ -1,0 +1,306 @@
+body {
+	background-color: #FFFFFF;
+	color: #333333;
+	font-family: "Trebuchet MS", "Luxi Sans",Verdana, Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+
+a, a:link{
+	color: #2A54AA;
+	outline: none;
+}
+
+a:visited{
+	color: #22468C;
+}
+
+a:hover, a:visited:hover{
+	color: #3060C1;
+}
+
+a:active{
+	color: #FF9933;
+}
+
+a img{
+	border: 0;
+}
+
+p{
+	margin: 0;
+}
+
+td, th{
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+}
+#container {
+	background-color: #FFFFFF;
+	margin: 0px auto;
+	width: 780px;
+}
+#main {
+	margin-right: 10px;
+	margin-top: 10px;
+	float: left;
+	width: 540px;
+}
+#sidebar {
+	width: 230px;
+	margin-top: 10px;
+	float: right;
+}
+#footer {
+	background-image: url(img/bg_footer.png);
+	background-repeat: no-repeat;
+	clear: both;
+	font-size: 12px;
+	line-height: 30px;
+	padding: 0 10px;
+	text-align: center;
+	width: 100%;
+}
+.container {
+	background-image: url(img/bg_container.png);
+	background-repeat: no-repeat;
+	clear: both;
+	margin-bottom: 10px;
+	min-height: 80px;
+	overflow: auto;
+	padding: 5px 10px 10px 10px;
+	position: relative;
+}
+.thumb{
+	background-image: url(img/bg_thumb.png);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	clear: none;
+	float: left;
+	font-size: 11px;
+	line-height: 1em;
+	margin: 5px 9px 10px 10px;
+	width: 150px;
+}
+.thumb img{
+	border: 1px solid #666666;
+}
+.sidecontainer{
+	background-image: url(img/bg_sidecontainer.png);
+	background-repeat: no-repeat;
+	min-height: 80px;
+	overflow: auto;
+	padding: 5px 10px 10px 10px;
+	margin-bottom: 10px;
+}
+.sidelist{
+	margin: 0;
+	padding: 0;
+}
+
+.sidelist li{
+	font-size: 14px;
+	list-style: none;
+	margin: 0;
+	padding: 2px 0;
+}
+
+.sidelist a, .gallerylist a:visited{
+	font-weight: bold;
+}
+
+.sidelist a:hover{
+	color: #FF8C00;
+}
+
+.sidelist img{
+	border: 1px solid #333333;
+	margin-right: 4px;
+	vertical-align: middle;
+}
+.club img{
+	border: 1px solid #333333;
+	float: left;
+	margin-right: 10px;
+}
+.club p{
+	display: inline;
+}
+.more{
+	float: right;
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 14px;
+}
+
+.more a{
+	background-image: url(img/bullet_more.gif);
+	background-position: right;
+	background-repeat: no-repeat;
+	padding-right: 18px;
+}
+
+
+/*-------------------- page header---------------------*/
+#userbar{
+	background-image: url(img/bg_userbar.png);
+	background-repeat: no-repeat;
+	float: left;
+	font-size: 15px;
+	height: 40px;
+	line-height: 40px;
+	margin: 0 10px;
+	padding: 0 10px;
+	width: 280px;
+}
+ 
+#userbar a{
+	font-weight: bold;
+}
+
+#userbar p{
+	display: inline;
+}
+
+#searchbar{
+	background-image: url(img/bg_searchbar.png);
+	background-repeat: no-repeat;
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 10px;
+	width: 210px;
+}
+
+#searchbar input{
+	max-width: 124px;
+}
+
+#header #logo{
+	float: left;
+	width: 230px;
+}
+
+#header h1{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+#header h2{
+	color: #3060C1;
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+#header h1 a{
+	background-image: url(img/gr_logo_scratchr.png); 
+	background-repeat: no-repeat;
+	float: left;
+	height: 60px;
+	margin: 0;
+	padding: 0;
+	text-indent: -9999px;
+	width: 230px;
+}
+
+/*-------------------- nav---------------------*/ 
+#nav {
+	background-color: #3060C1;
+	background-image: url(img/bg_nav.png);
+	background-repeat: no-repeat;
+	float: right;
+	margin: 0 0 10px 0;
+	padding: 0 5px;
+	width: 535px;
+	padding-left: 0
+}
+
+#nav li {
+	float: left;
+	list-style-type: none;
+}
+
+#nav a{
+	border-right: 1px solid #22468C;
+	color: #E7EBF7;
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 26px;
+	padding: 2px 6px;
+	text-decoration: none;
+}
+
+#nav a:hover{
+	color: white;
+}
+
+#nav #langselect{
+	float: right;
+	margin-top: 2px;
+}
+
+#nav select{
+	font-size: 12px;
+}
+
+#nav #active a{
+	color: #FFC56C;
+}
+
+.clearme:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+/*-------------------- headers---------------------*/ 
+h1{
+	color: #111111;
+	font-size: 1.3em;
+	font-weight: bold;
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+h2{
+	color: #222222;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1.3em;
+	margin: 6px 0 0 0;
+	padding: 0px;
+}
+
+h3{
+	color: #333333;
+	font-size: 18px;
+	font-weight: normal;
+	margin: 5px 0 5px 0;
+	padding: 0;
+}
+
+h4{
+	font-size: 16px;
+	margin: 0;
+	padding: 0 0 5px 0px;
+}
+
+h5{
+	font-size: 14px;
+	margin: 0;
+	padding: 0 0 5px 0;
+}
+
+h6{
+	font-size: 1em;
+	margin: 0 10px;
+	padding: 0;
+}
