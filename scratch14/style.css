@@ -378,3 +378,24 @@ h6{
 	width: 90px;
 	height: 90px;
 }
+.mystuff_container {
+	background-image: url(https://the2000isawesome.github.io/scratch14/img/bg_container.png);
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+	float: left;
+	width: 100%;
+}
+.mystuff_header {
+	float: left;
+	width: 85%;
+	margin-left: 10px;
+	margin-top: 2px;
+}
+.mystuff_content {
+	float: left;
+	width: 100%;
+}
+.mystuff_projects {
+	float: left;
+	width: 100%;
+}
