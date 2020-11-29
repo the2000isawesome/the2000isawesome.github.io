@@ -14,9 +14,9 @@
     if (document.getElementById('app') == null) {
         let nav = document.getElementsByClassName('site-nav')[0];
         nav.children[2].innerHTML = '<a href="/discuss/">Discuss</a>';
-        nav.children[3].innerHTML = '<a href="https://en.scratch-wiki.info/wiki/Scratch_Wiki_Home">Wiki</a>';
+        nav.children[3].innerHTML = '<a href="https://en.scratch-wiki.info/wiki/Scratch_Wiki_Home">Learn</a>';
     } else if (document.getElementById('pagewrapper') == null) {
         document.getElementsByClassName('ideas')[0].innerHTML = '<a href="/discuss/"><span>Discuss</span></a>';
-        document.getElementsByClassName('about')[0].innerHTML = '<a href="https://en.scratch-wiki.info/wiki/Scratch_Wiki_Home"><span>Wiki</span></a>';
+        document.getElementsByClassName('about')[0].innerHTML = '<a href="https://en.scratch-wiki.info/wiki/Scratch_Wiki_Home"><span>Learn</span></a>';
     }
 })();
