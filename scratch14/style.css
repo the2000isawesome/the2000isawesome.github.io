@@ -8,6 +8,7 @@ body {
 a, a:link{
 	color: #2A54AA;
 	outline: none;
+	text-decoration: underline;
 }
 
 a:visited{
