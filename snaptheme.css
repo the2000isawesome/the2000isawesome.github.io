@@ -27,7 +27,7 @@ body {
 	margin-left: 10px;
 }
 .project.big .title .author {
-	position: relative;
+	position: relative !important;
 }
 .collection:not(.small) .contents, .viewer {
 	margin-left: 10px;
