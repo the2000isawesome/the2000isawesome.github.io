@@ -29,6 +29,9 @@ body {
 .project.big .title .author {
 	position: relative !important;
 }
+.project.big .title .remixed-from {
+	right: 7px !important;
+}
 .collection:not(.small) .contents, .viewer {
 	margin-left: 10px;
 }
