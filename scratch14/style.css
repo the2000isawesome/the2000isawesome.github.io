@@ -87,8 +87,10 @@ td, th{
 .thumb img{
 	border: 1px solid #666666;
 }
-.thumb a h6, .sidelist a {
+.thumb a h6 {
 	display: block;
+}
+.thumb a h6, .sidelist a {
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
@@ -116,7 +118,6 @@ td, th{
 .sidelist li{
 	font-size: 14px;
 	list-style: none;
-	margin: 0;
 	padding: 2px 0;
 }
 
@@ -126,10 +127,6 @@ td, th{
 
 .sidelist a:hover{
 	color: #FF8C00;
-}
-
-.sidelist a{
-	margin-top: 7px;
 }
 
 .sidelist img{
