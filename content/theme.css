@@ -1,0 +1,35 @@
+body {
+	background-color: #aaa;
+	color: #333333;
+	font-family: "Trebuchet MS", "Luxi Sans",Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+#main {
+	margin: auto;
+	width: 700px;
+	background-color: #ddd;
+	padding: 25px;
+	border: 2px solid #555;
+	border-radius: 25px;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	display: inline;
+}
+img {
+	border: 1px solid #555;
+	max-width: 100%;
+}
+.code {
+	margin: 10px;
+	margin-left: 50px;
+	border: 2px dashed #555;
+	background-color: #ccc;
+	font-family: monospace;
+	width: 600px;
+	padding: 5px;
+	font-size: 15px;
+}
+.marginRight {
+	margin-left: 50px;
+}
