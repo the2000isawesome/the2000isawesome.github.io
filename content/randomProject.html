@@ -1,0 +1,58 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>THE2000 - random scratch project bookmarklet</title>
+<link rel='stylesheet' href='theme.css'/>
+</head>
+<body>
+
+<div id='main'>
+	<a href='../index.html'>&lt;&lt; Back</a><br/><br/>
+	<h1>Random Scratch Project Bookmarklet</h1><br/><br/>
+	<p>"Installation" instructions: <b>Click and drag</b> the button below to your bookmarks bar. <b>Don't try to click it on here, it won't work!</b> The bookmarklet won't work on sites other than Scratch, either.</p><br/><br/><br/>
+	<a style='text-decoration: none; color: inherit; background-color: #aaa; padding: 5px; border-radius: 10px' href="javascript:(function()%7Bif%20(window.location.hostname%20!%3D%3D%20'scratch.mit.edu')%20%7Bif%20(window.location.hostname%20%3D%3D%20'the2000isawesome.github.io')%20%7Bwindow.alert('This%20button%20can%20only%20be%20used%20from%20a%20Scratch%20page!%20Did%20you%20read%20the%20instructions%3F')%3Breturn%3B%7Dwindow.alert('This%20button%20can%20only%20be%20used%20from%20a%20Scratch%20page!')%3Breturn%3B%7Dvar%20min%20%3D%2011%3Bvar%20max%20%3D%200%3Bfunction%20randProj()%20%7Breturn%20Math.floor(Math.random()%20*%20(max%20-%20min)%20%2B%20min)%3B%7Dfunction%20fetchProject(num)%20%7Bfetch('https%3A%2F%2Fapi.scratch.mit.edu%2Fprojects%2F'%20%2B%20num).then(res%20%3D%3E%20res.json()).then((out)%20%3D%3E%20%7Bif%20(out.code)%20%7BfetchProject(randProj())%3B%7D%20else%20%7Bwindow.location.href%20%3D%20'https%3A%2F%2Fscratch.mit.edu%2Fprojects%2F'%20%2B%20num%3B%7D%7D).catch(err%20%3D%3E%20console.error(err))%3B%7Dfetch('https%3A%2F%2Fapi.scratch.mit.edu%2Fproxy%2Ffeatured').then(res%20%3D%3E%20res.json()).then((out)%20%3D%3E%20%7Bfor%20(let%20i%20%3D%200%3B%20i%20%3C%2020%3B%20i%2B%2B)%20%7Bmax%20%3D%20Math.max(max%2C%20out.community_newest_projects%5Bi%5D.id)%3B%7DfetchProject(randProj())%3B%7D).catch(err%20%3D%3E%20console.error(err))%7D)()">Random Scratch Project</button>
+</div>
+
+<script>
+// NON UGLIFIED VERSION BELOW:
+/*if (window.location.hostname !== 'scratch.mit.edu') {
+	if (window.location.hostname == 'the2000isawesome.github.io') {
+		window.alert('This button can only be used from a Scratch page! Did you read the instructions?');
+		return;
+	}
+	window.alert('This button can only be used from a Scratch page!');
+	return;
+}
+
+var min = 11;
+var max = 0;
+
+function randProj() {
+	return Math.floor(Math.random() * (max - min) + min);
+}
+function fetchProject(num) {
+	fetch('https://api.scratch.mit.edu/projects/' + num)
+		.then(res => res.json())
+		.then((out) => {
+			if (out.code) {
+				fetchProject(randProj());
+			} else {
+				window.location.href = 'https://scratch.mit.edu/projects/' + num;
+			}
+		}).catch(err => console.error(err));
+}
+
+fetch('https://api.scratch.mit.edu/proxy/featured')
+	.then(res => res.json())
+	.then((out) => {
+		for (let i = 0; i < 20; i++) {
+			max = Math.max(max, out.community_newest_projects[i].id);
+		}
+		fetchProject(randProj());
+	}).catch(err => console.error(err));
+*/
+</script>
+
+</body>
+</html> 
